@@ -1,0 +1,15 @@
+[project]
+name = "agent_local_cache"
+version = "0.1.0"
+description = "A prototype for local context caching to reduce unnecessary tool calls in agentic AI systems."
+authors = [{ name = "AutoScout", email = "autoscout@example.com" }]
+dependencies = ["pydantic>=2.0"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agent_local_cache*"]
